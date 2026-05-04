@@ -10,9 +10,9 @@ public class Player : MonoBehaviour
 
     [Header("Movement")]
     //variables para controlar velocidad, altura de salto y gravedad
-    [SerializeField]private float speed = 10;
-    [SerializeField]private float jumpHeight = 10;
-    [SerializeField]private float gravity = -3;
+    [SerializeField]private float speed = 5;
+    [SerializeField]private float jumpHeight = 3;
+    [SerializeField]private float gravity = -9.45f;
     //Vector para aplicar la gravedad
     private Vector3 playerVelocity;
 
