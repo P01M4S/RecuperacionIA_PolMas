@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     public Transform[] _patrollPoints;
     Transform _player;
     float _detect = 3;
-    float _serchTime;
+    float _serchTime = 5;
     float _serchRadius = 20;
     Vector3 _playerLastPosition;
     float _detectionAngle = 90;
