@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private CharacterController controller;
 
@@ -10,9 +10,9 @@ public class PlayerController : MonoBehaviour
 
     [Header("Movement")]
     //variables para controlar velocidad, altura de salto y gravedad
-    [SerializeField]private float speed = 5;
-    [SerializeField]private float jumpHeight = 1;
-    [SerializeField]private float gravity = -9.81f;
+    [SerializeField]private float speed = 10;
+    [SerializeField]private float jumpHeight = 10;
+    [SerializeField]private float gravity = -3;
     //Vector para aplicar la gravedad
     private Vector3 playerVelocity;
 
